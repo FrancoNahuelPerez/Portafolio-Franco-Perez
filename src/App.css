@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(90deg,rgb(196, 159, 222),rgb(226, 212, 236));
+   font-family:  Courier New,Courier,monospace;
+}
+
+
