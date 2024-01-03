@@ -1,5 +1,4 @@
 .Proyectos{
-    transform: scale(-1);
     width: 85%;
     height: auto;
     margin: auto;
@@ -19,7 +18,6 @@
 
 
 .cards{
-  transform: scale(-1);
   width: 100%;
   height: 100%;
   display: flex;
@@ -112,7 +110,7 @@
 }
 
 .servicios{
-    transform: scale(-1);
+
     width: 100%;
     min-height: 80vh;
     display: flex;
