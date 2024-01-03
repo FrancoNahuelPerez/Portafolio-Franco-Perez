@@ -83,6 +83,9 @@
     padding: 0 10px;
 }
 
+/* .cards .card .tecno img{
+    filter: invert(38%) sepia(74%) saturate(5469%) hue-rotate(225deg) brightness(100%) contrast(96%);
+} */
 
 
 .cards .card .github{

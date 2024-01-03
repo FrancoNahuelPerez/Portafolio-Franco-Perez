@@ -16,6 +16,9 @@ import psql from '../assets/psql.svg'
 import node from '../assets/node.svg'
 import express from '../assets/express.svg'
 import redux from '../assets/redux.svg'
+import typescrit from '../assets/typ.svg'
+import url from '../assets/url.svg'
+
 
 const Proyectos = () => {
 
@@ -24,24 +27,28 @@ const Proyectos = () => {
         image:[dogs],
         name:'Proyecto Dogs',
         descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
-        tecno:[html,css,js,tailwind, react],
-        url:'https://github.com/FrancoNahuelPerez/PI-Dogs-main',
+        tecno:[html,css,js,express, react, node,redux, psql],
+        gitUrl:'https://github.com/FrancoNahuelPerez/PI-Dogs-main',
       },
 
       {
         image:[food],
         name:'Proyecto Food',
         descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
-        tecno:[html,css,js],
-        url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+        tecno:[html,css,js, express, react, node,redux, psql],
+        gitUrl:'https://github.com/FrancoNahuelPerez/PI-Food-main-',
       },
 
       {
         image:[xul],
         name:'Proyecto Xul',
-        descrip:'Portafolio creado por JAMY, para que tengas un sitio en donde mostrarle al mundo tus proyectos.',
-        tecno:[html,css,js],
-        url:'https://github.com/MINOTAURO18/Portafolio-Plantilla-React',
+        //Single-page application (SPA) desarrollada durante el bootcamp de SoyHenry
+
+        //Proyecto sobre todos los países que permite al usuario buscar el país, poder filtrarlos por continentes, orden alfabético, según la cantidad de población de mayor a menor y de menor a mayor, y poder crear actividades para el país que elija el usuario. Después, se pueden filtrar los países que tienen una actividad.
+        descrip:'Single-page application(SPA) desarrollada durante el bootcamp de SoyHenry.',
+        tecno:[html,tailwind,js, express, react, node,redux, psql, ],
+        gitUrl:'https://github.com/MuseoXulSolar/Server-XulSolar',
+        url: 'https://www.youtube.com/watch?v=BGJdh_8pxvo'
       },
 
     ]
@@ -87,7 +94,10 @@ const Proyectos = () => {
             <h5>REACT</h5>
           </div>
 
-  
+          <div>
+            <img src={typescrit} alt="logo" />
+            <h5>TYPESCRIT</h5>
+          </div>
 
           <div>
             <img src={psql} alt="logo" />
@@ -147,10 +157,14 @@ const Proyectos = () => {
                           <img width='30px' src={card.tecno[2]} alt="" />
                           <img width='30px' src={card.tecno[3]} alt="" />
                           <img width='30px' src={card.tecno[4]} alt="" />
+                          <img width='30px' src={card.tecno[5]} alt="" />
+                          <img width='30px' src={card.tecno[6]} alt="" />
+                          <img width='30px' src={card.tecno[7]} alt="" />
+                          <img width='30px' src={card.tecno[8]} alt="" />
                         </div>
 
                         <div className={styles.github}>
-                          <a href={card.url} target='_blank'>
+                          <a href={card.gitUrl} target='_blank'>
                             <img width='30px' src={github} alt="" />
                           </a>
                         </div>
