@@ -13,27 +13,27 @@ const Menu = () => {
 
             <nav className={styles.nav}>
 
-              <Link to='/Portafolio-Plantilla-React/'><span>I</span>nicio</Link>
+              <Link to='/'><span>I</span>nicio</Link>
 
-              <Link to='/Portafolio-Plantilla-React/proyectos'><span>P</span>royectos</Link>
+              <Link to='/proyectos'><span>P</span>royectos</Link>
 
-              <Link to='/Portafolio-Plantilla-React/sobremi'><span>S</span>obreMi</Link>
+              <Link to='/sobremi'><span>S</span>obreMi</Link>
 
             </nav>
 
             <nav className={styles.navMobile}>
                  
-              <Link to='/Portafolio-Plantilla-React/'>
+              <Link to='/'>
                 <img width='40px' src={home} alt="" />
               </Link>
 
 
-              <Link to='/Portafolio-Plantilla-React/proyectos'>
+              <Link to='/proyectos'>
               <img width='40px' src={proyec} alt="" />
               </Link>
 
 
-              <Link to='/Portafolio-Plantilla-React/sobremi'>
+              <Link to='/sobremi'>
                <img width='40px' src={sobre} alt="" />
               </Link>
 

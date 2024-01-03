@@ -5,7 +5,7 @@ const Inicio = () => {
         <section className={styles.Inicio}>
             <article className={styles.full}>
                 <h1>Full Stack Web Developer</h1>
-                <p>Programador con enfoque en el desarrollo de aplicaciones web, tengo habilidades tanto en el Front-end como en el el Back-end. sin embargo mi especialidad y enfoque principal está en el Front-end.</p>
+                <p>Programador con enfoque en el desarrollo de aplicaciones web, tengo habilidades tanto en el Back-end como en el el Front-end. sin embargo mi especialidad y enfoque principal está en el Back-end.</p>
                 <div className={styles.adornos}>
                 <div></div>
                 <div></div>
