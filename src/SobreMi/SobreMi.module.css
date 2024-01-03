@@ -7,6 +7,11 @@
     height: 92vh;
     margin: auto;
 }
+span{
+    background: linear-gradient(180deg, #3f5efb, #fc466b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .SobreMi .left,
 .SobreMi .right {

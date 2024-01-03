@@ -11,7 +11,7 @@ const SobreMi = () => {
                     <div className={styles.img}>
                         <img src={yo} alt="" />
                     </div>
-                    <p>Hola, Me llamo  Franco Nahuel Perez. Un apasionado desarrollador Full-Stack graduado de la  Institución Soy Henry. Mi enfoque principal se encuentra en el Back-end, donde encuentro mi verdadera pasión y donde he forjado gran parte de mi experiencia.</p>
+                    <p>Hola, Me llamo  <span>F</span>ranco <span>N</span>ahuel <span>P</span>erez. Un apasionado desarrollador Full-Stack graduado de la  Institución Soy Henry. Mi enfoque principal se encuentra en el Back-end, donde encuentro mi verdadera pasión y donde he forjado gran parte de mi experiencia.</p>
                     <div className={styles.adornos}>
                         <div></div>
                         <div></div>
